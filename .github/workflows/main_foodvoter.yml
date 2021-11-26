@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'FoodVoter'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A3ADAA5C425240328BA0D2CC0557D76D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5848AA64C427455294791911C9842A01 }}
           package: .
