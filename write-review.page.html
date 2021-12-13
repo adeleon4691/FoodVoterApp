@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Write a Review</ion-title>
+
+    <ion-back-button slot="start"></ion-back-button>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1>Share a Recent Experience!</h1>
+  <p>Click the "Plus" button and leave a review on a recent restaraunt you tried!</p>
+
+
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button (click)="writeReview()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>

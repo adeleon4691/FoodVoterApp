@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Dashboard
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1>Get Started Down Below!</h1>
+  <p>Choose one of the options to start your Food-Poll experience today! 
+    Please be respectful with anything that you post in your reviews or questions.
+  </p>
+
+  <ion-card>
+    <ion-item>
+      <img height="100" width="100" src="../../assets/images/write.png" slot="start">
+      <ion-label>Write a Review</ion-label>
+      <ion-button routerLink="/write-review" slot="end" expand="block" >Write</ion-button>
+    </ion-item>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <img height="100" width="100" src="../../assets/images/question.jpg" slot="start">
+      <ion-label>Need Recommendation</ion-label>
+      <ion-button routerLink="/recommendations" slot="end">Ask</ion-button>
+    </ion-item>
+  </ion-card>
+
+</ion-content>
